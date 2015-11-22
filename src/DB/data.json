@@ -1,0 +1,42 @@
+[
+	{
+		"projectName":"B1090 LFP包装机左线排期表（3台）",
+		"projectCode":"B1090",
+		"projectDutyMan":"付爽1",
+		"tableHeadArr":[
+			"序号",
+			"工位名称",
+			"图纸数量",
+			"负责人",
+			"开始时间",
+			"3D",
+			"2D",
+			"外购清单",
+			"资材",
+			"机加工",
+			"外购件",
+			"物料入库",
+			"模块装配",
+			"整机装配"
+		],
+		"stationArr" : [
+			{
+				"stationName":"工位1",
+				"bluePrintNum":"30",
+				"dutyMan":"荣柄杰",
+				"startPoint":"11/03/2015",
+				"stageArr":	[
+					{"dueTime":5, "infactTime": 5},
+					{"dueTime":2, "infactTime": 2},
+					{"dueTime":0, "infactTime": 0},
+					{"dueTime":1, "infactTime": 1},
+					{"dueTime":15, "infactTime": 15},
+					{"dueTime":15, "infactTime": 15},
+					{"dueTime":2, "infactTime": 2},
+					{"dueTime":10, "infactTime": 10}
+				],
+				"currentStage" : 1
+			}
+		]
+	}
+]
