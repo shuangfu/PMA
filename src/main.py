@@ -187,7 +187,7 @@ class GetConvData(tornado.web.RequestHandler):
                             'projectName' : tempProject['projectName'],
                             'stationNum' : tempStation['stationNum'],
                             'stageNum' : str(i + 1),
-                            'percent' : tempStage['percent'],
+                            'percent' : ("%.2f" % float(tempStage['percent'])),
                             'dutyMan' : tempStation['dutyMan'],
                             'projectID' : tempProject['projectCode']
                         })

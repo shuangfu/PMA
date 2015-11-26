@@ -1,6 +1,8 @@
 [
     {
+        "projectCode": "B1090",
         "projectDutyMan": "fs",
+        "projectName": "B1090 LFP包装机左线排期表（2台）",
         "tableHeadArr": [
             "序号",
             "工位名称",
@@ -17,316 +19,316 @@
             "模块装配",
             "整机装配"
         ],
-        "projectName": "B1090 LFP包装机左线排期表（2台）",
-        "projectCode": "B1090",
         "stationArr": [
             {
-                "currentStage": "6",
+                "bluePrintNum": "30",
                 "dutyMan": "荣柄杰",
                 "startPoint": "11/03/2015",
-                "stationName": "工位1",
-                "stationNum": "1",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
+                        "statusFlag": "COMPLETED",
+                        "infactTime": "24",
+                        "endTime": "11/08/2015",
+                        "dueTime": "5",
+                        "completedTime": "11/27/2015",
                         "lable": "-19",
                         "startTime": "11/03/2015",
-                        "dueTime": "5",
-                        "statusFlag": "COMPLETED",
-                        "infactTime": "24",
-                        "percent": 4.8,
-                        "endTime": "11/08/2015",
-                        "completedTime": "11/27/2015"
+                        "percent": 4.8
                     },
                     {
-                        "lable": "-17",
-                        "startTime": "11/08/2015",
-                        "dueTime": "2",
                         "statusFlag": "COMPLETED",
                         "infactTime": "19",
-                        "percent": 9.5,
                         "endTime": "11/10/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "2",
+                        "completedTime": "11/27/2015",
+                        "lable": "-17",
+                        "startTime": "11/08/2015",
+                        "percent": 9.5
                     },
                     {
+                        "statusFlag": "COMPLETED",
+                        "infactTime": "17",
+                        "endTime": "11/10/2015",
+                        "dueTime": "0",
+                        "completedTime": "11/27/2015",
                         "lable": "-17",
                         "startTime": "11/10/2015",
-                        "dueTime": "0",
-                        "statusFlag": "COMPLETED",
-                        "infactTime": "17",
-                        "percent": "17",
-                        "endTime": "11/10/2015",
-                        "completedTime": "11/27/2015"
+                        "percent": "17"
                     },
                     {
+                        "statusFlag": "COMPLETED",
+                        "infactTime": "17",
+                        "endTime": "11/11/2015",
+                        "dueTime": "1",
+                        "completedTime": "11/27/2015",
                         "lable": "-16",
                         "startTime": "11/10/2015",
-                        "dueTime": "1",
-                        "statusFlag": "COMPLETED",
-                        "infactTime": "17",
-                        "percent": 17.0,
-                        "endTime": "11/11/2015",
-                        "completedTime": "11/27/2015"
+                        "percent": 17.0
                     },
                     {
-                        "lable": "-1",
-                        "startTime": "11/11/2015",
-                        "dueTime": "15",
                         "statusFlag": "COMPLETED",
                         "infactTime": "16",
-                        "percent": 1.0666666666666667,
                         "endTime": "11/26/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "15",
+                        "completedTime": "11/27/2015",
+                        "lable": "-1",
+                        "startTime": "11/11/2015",
+                        "percent": 1.0666666666666667
                     },
                     {
+                        "statusFlag": "COMPLETED",
+                        "infactTime": "1",
+                        "endTime": "11/26/2015",
+                        "dueTime": "0",
+                        "completedTime": "11/27/2015",
                         "lable": "-1",
                         "startTime": "11/26/2015",
-                        "dueTime": "0",
-                        "statusFlag": "COMPLETED",
-                        "infactTime": "1",
-                        "percent": "1",
-                        "endTime": "11/26/2015",
-                        "completedTime": "11/27/2015"
+                        "percent": "1"
                     },
                     {
+                        "statusFlag": "RUNNING",
+                        "infactTime": "1",
+                        "endTime": "11/28/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "1",
                         "startTime": "11/26/2015",
-                        "dueTime": "2",
-                        "statusFlag": "RUNNING",
-                        "infactTime": "1",
-                        "percent": "0.5",
-                        "endTime": "11/28/2015",
-                        "completedTime": "0"
+                        "percent": "0.5"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/08/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/08/2015",
                         "startTime": "11/28/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/08/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "01/31/2016",
+                        "dueTime": "54",
+                        "completedTime": "0",
                         "lable": "01/31/2016",
                         "startTime": "12/08/2015",
-                        "dueTime": "54",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位1",
+                "stationNum": "1",
+                "currentStage": "6",
                 "projectBelong": "B1090"
             },
             {
-                "currentStage": "1",
+                "bluePrintNum": "30",
                 "dutyMan": "荣柄杰",
                 "startPoint": "11/09/2015",
-                "stationName": "工位2",
-                "stationNum": "2",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
-                        "lable": "-12",
-                        "startTime": "11/09/2015",
-                        "dueTime": "6",
                         "statusFlag": "COMPLETED",
                         "infactTime": "18",
-                        "percent": 3.0,
                         "endTime": "11/15/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "6",
+                        "completedTime": "11/27/2015",
+                        "lable": "-12",
+                        "startTime": "11/09/2015",
+                        "percent": 3.0
                     },
                     {
-                        "lable": "-10",
-                        "startTime": "11/15/2015",
-                        "dueTime": "2",
                         "statusFlag": "RUNNING",
                         "infactTime": "12",
-                        "percent": "6.0",
                         "endTime": "11/17/2015",
-                        "completedTime": "0"
+                        "dueTime": "2",
+                        "completedTime": "0",
+                        "lable": "-10",
+                        "startTime": "11/15/2015",
+                        "percent": "6.0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/17/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/17/2015",
                         "startTime": "11/17/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/17/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/18/2015",
+                        "dueTime": "1",
+                        "completedTime": "0",
                         "lable": "11/18/2015",
                         "startTime": "11/17/2015",
-                        "dueTime": "1",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/18/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/03/2015",
+                        "dueTime": "15",
+                        "completedTime": "0",
                         "lable": "12/03/2015",
                         "startTime": "11/18/2015",
-                        "dueTime": "15",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/03/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/03/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "12/03/2015",
                         "startTime": "12/03/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/03/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/05/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "12/05/2015",
                         "startTime": "12/03/2015",
-                        "dueTime": "2",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/05/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/15/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/15/2015",
                         "startTime": "12/05/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/15/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
-                        "lable": "01/31/2016",
-                        "startTime": "12/15/2015",
-                        "dueTime": "47",
                         "statusFlag": "UNBEGINNING",
                         "infactTime": "0",
-                        "percent": "0",
                         "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "dueTime": "47",
+                        "completedTime": "0",
+                        "lable": "01/31/2016",
+                        "startTime": "12/15/2015",
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位2",
+                "stationNum": "2",
+                "currentStage": "1",
                 "projectBelong": "B1090"
             },
             {
-                "currentStage": "1",
+                "bluePrintNum": "30",
                 "dutyMan": "黄新政",
                 "startPoint": "11/03/2015",
-                "stationName": "工位3",
-                "stationNum": "3",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
-                        "lable": "-20",
-                        "startTime": "11/03/2015",
-                        "dueTime": "4",
                         "statusFlag": "COMPLETED",
                         "infactTime": "24",
-                        "percent": 6.0,
                         "endTime": "11/07/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "4",
+                        "completedTime": "11/27/2015",
+                        "lable": "-20",
+                        "startTime": "11/03/2015",
+                        "percent": 6.0
                     },
                     {
-                        "lable": "-18",
-                        "startTime": "11/07/2015",
-                        "dueTime": "2",
                         "statusFlag": "RUNNING",
                         "infactTime": "20",
-                        "percent": "10.0",
                         "endTime": "11/09/2015",
-                        "completedTime": "0"
+                        "dueTime": "2",
+                        "completedTime": "0",
+                        "lable": "-18",
+                        "startTime": "11/07/2015",
+                        "percent": "10.0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/09/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/09/2015",
                         "startTime": "11/09/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/09/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/10/2015",
+                        "dueTime": "1",
+                        "completedTime": "0",
                         "lable": "11/10/2015",
                         "startTime": "11/09/2015",
-                        "dueTime": "1",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/10/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/25/2015",
+                        "dueTime": "15",
+                        "completedTime": "0",
                         "lable": "11/25/2015",
                         "startTime": "11/10/2015",
-                        "dueTime": "15",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/25/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/25/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/25/2015",
                         "startTime": "11/25/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/25/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/27/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "11/27/2015",
                         "startTime": "11/25/2015",
-                        "dueTime": "2",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/27/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/07/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/07/2015",
                         "startTime": "11/27/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/07/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
-                        "lable": "01/31/2016",
-                        "startTime": "12/07/2015",
-                        "dueTime": "55",
                         "statusFlag": "UNBEGINNING",
                         "infactTime": "0",
-                        "percent": "0",
                         "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "dueTime": "55",
+                        "completedTime": "0",
+                        "lable": "01/31/2016",
+                        "startTime": "12/07/2015",
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位3",
+                "stationNum": "3",
+                "currentStage": "1",
                 "projectBelong": "B1090"
             }
         ]
     },
     {
+        "projectCode": "B1091",
         "projectDutyMan": "fs",
+        "projectName": "B1091 LFP包装机左线排期表（1台）",
         "tableHeadArr": [
             "序号",
             "工位名称",
@@ -343,310 +345,308 @@
             "模块装配",
             "整机装配"
         ],
-        "projectName": "B1091 LFP包装机左线排期表（1台）",
-        "projectCode": "B1091",
         "stationArr": [
             {
-                "currentStage": "2",
+                "bluePrintNum": "30",
                 "dutyMan": "荣柄杰",
                 "startPoint": "11/03/2015",
-                "stationName": "工位1",
-                "stationNum": "1",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
+                        "statusFlag": "COMPLETED",
+                        "infactTime": "24",
+                        "endTime": "11/08/2015",
+                        "dueTime": "5",
+                        "completedTime": "11/27/2015",
                         "lable": "-19",
                         "startTime": "11/03/2015",
-                        "dueTime": "5",
-                        "statusFlag": "COMPLETED",
-                        "infactTime": "24",
-                        "percent": 4.8,
-                        "endTime": "11/08/2015",
-                        "completedTime": "11/27/2015"
+                        "percent": 4.8
                     },
                     {
-                        "lable": "-17",
-                        "startTime": "11/08/2015",
-                        "dueTime": "2",
                         "statusFlag": "COMPLETED",
                         "infactTime": "19",
-                        "percent": 9.5,
                         "endTime": "11/10/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "2",
+                        "completedTime": "11/27/2015",
+                        "lable": "-17",
+                        "startTime": "11/08/2015",
+                        "percent": 9.5
                     },
                     {
-                        "lable": "-17",
-                        "startTime": "11/10/2015",
-                        "dueTime": "0",
                         "statusFlag": "RUNNING",
                         "infactTime": "17",
-                        "percent": "1",
                         "endTime": "11/10/2015",
-                        "completedTime": "0"
+                        "dueTime": "0",
+                        "completedTime": "0",
+                        "lable": "-17",
+                        "startTime": "11/10/2015",
+                        "percent": "1"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/11/2015",
+                        "dueTime": "1",
+                        "completedTime": "0",
                         "lable": "11/11/2015",
                         "startTime": "11/10/2015",
-                        "dueTime": "1",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/11/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/26/2015",
+                        "dueTime": "15",
+                        "completedTime": "0",
                         "lable": "11/26/2015",
                         "startTime": "11/11/2015",
-                        "dueTime": "15",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/26/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/26/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/26/2015",
                         "startTime": "11/26/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/26/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/28/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "11/28/2015",
                         "startTime": "11/26/2015",
-                        "dueTime": "2",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/28/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/08/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/08/2015",
                         "startTime": "11/28/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/08/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "01/31/2016",
+                        "dueTime": "54",
+                        "completedTime": "0",
                         "lable": "01/31/2016",
                         "startTime": "12/08/2015",
-                        "dueTime": "54",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位1",
+                "stationNum": "1",
+                "currentStage": "2",
                 "projectBelong": "B1091"
             },
             {
-                "currentStage": "1",
+                "bluePrintNum": "30",
                 "dutyMan": "荣柄杰",
                 "startPoint": "11/09/2015",
-                "stationName": "工位2",
-                "stationNum": "2",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
-                        "lable": "-12",
-                        "startTime": "11/09/2015",
-                        "dueTime": "6",
                         "statusFlag": "COMPLETED",
                         "infactTime": "18",
-                        "percent": 3.0,
                         "endTime": "11/15/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "6",
+                        "completedTime": "11/27/2015",
+                        "lable": "-12",
+                        "startTime": "11/09/2015",
+                        "percent": 3.0
                     },
                     {
-                        "lable": "-10",
-                        "startTime": "11/15/2015",
-                        "dueTime": "2",
                         "statusFlag": "RUNNING",
                         "infactTime": "12",
-                        "percent": "6.0",
                         "endTime": "11/17/2015",
-                        "completedTime": "0"
+                        "dueTime": "2",
+                        "completedTime": "0",
+                        "lable": "-10",
+                        "startTime": "11/15/2015",
+                        "percent": "6.0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/17/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/17/2015",
                         "startTime": "11/17/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/17/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/18/2015",
+                        "dueTime": "1",
+                        "completedTime": "0",
                         "lable": "11/18/2015",
                         "startTime": "11/17/2015",
-                        "dueTime": "1",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/18/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/03/2015",
+                        "dueTime": "15",
+                        "completedTime": "0",
                         "lable": "12/03/2015",
                         "startTime": "11/18/2015",
-                        "dueTime": "15",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/03/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/03/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "12/03/2015",
                         "startTime": "12/03/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/03/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/05/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "12/05/2015",
                         "startTime": "12/03/2015",
-                        "dueTime": "2",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/05/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/15/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/15/2015",
                         "startTime": "12/05/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/15/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
-                        "lable": "01/31/2016",
-                        "startTime": "12/15/2015",
-                        "dueTime": "47",
                         "statusFlag": "UNBEGINNING",
                         "infactTime": "0",
-                        "percent": "0",
                         "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "dueTime": "47",
+                        "completedTime": "0",
+                        "lable": "01/31/2016",
+                        "startTime": "12/15/2015",
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位2",
+                "stationNum": "2",
+                "currentStage": "1",
                 "projectBelong": "B1091"
             },
             {
-                "currentStage": "1",
+                "bluePrintNum": "30",
                 "dutyMan": "黄新政",
                 "startPoint": "11/03/2015",
-                "stationName": "工位3",
-                "stationNum": "3",
-                "bluePrintNum": "30",
                 "stageArr": [
                     {
-                        "lable": "-20",
-                        "startTime": "11/03/2015",
-                        "dueTime": "4",
                         "statusFlag": "COMPLETED",
                         "infactTime": "24",
-                        "percent": 6.0,
                         "endTime": "11/07/2015",
-                        "completedTime": "11/27/2015"
+                        "dueTime": "4",
+                        "completedTime": "11/27/2015",
+                        "lable": "-20",
+                        "startTime": "11/03/2015",
+                        "percent": 6.0
                     },
                     {
-                        "lable": "-18",
-                        "startTime": "11/07/2015",
-                        "dueTime": "2",
                         "statusFlag": "RUNNING",
                         "infactTime": "20",
-                        "percent": "10.0",
                         "endTime": "11/09/2015",
-                        "completedTime": "0"
+                        "dueTime": "2",
+                        "completedTime": "0",
+                        "lable": "-18",
+                        "startTime": "11/07/2015",
+                        "percent": "10.0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/09/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/09/2015",
                         "startTime": "11/09/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/09/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/10/2015",
+                        "dueTime": "1",
+                        "completedTime": "0",
                         "lable": "11/10/2015",
                         "startTime": "11/09/2015",
-                        "dueTime": "1",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/10/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/25/2015",
+                        "dueTime": "15",
+                        "completedTime": "0",
                         "lable": "11/25/2015",
                         "startTime": "11/10/2015",
-                        "dueTime": "15",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/25/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/25/2015",
+                        "dueTime": "0",
+                        "completedTime": "0",
                         "lable": "11/25/2015",
                         "startTime": "11/25/2015",
-                        "dueTime": "0",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/25/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "11/27/2015",
+                        "dueTime": "2",
+                        "completedTime": "0",
                         "lable": "11/27/2015",
                         "startTime": "11/25/2015",
-                        "dueTime": "2",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "11/27/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
+                        "statusFlag": "UNBEGINNING",
+                        "infactTime": "0",
+                        "endTime": "12/07/2015",
+                        "dueTime": "10",
+                        "completedTime": "0",
                         "lable": "12/07/2015",
                         "startTime": "11/27/2015",
-                        "dueTime": "10",
-                        "statusFlag": "UNBEGINNING",
-                        "infactTime": "0",
-                        "percent": "0",
-                        "endTime": "12/07/2015",
-                        "completedTime": "0"
+                        "percent": "0"
                     },
                     {
-                        "lable": "01/31/2016",
-                        "startTime": "12/07/2015",
-                        "dueTime": "55",
                         "statusFlag": "UNBEGINNING",
                         "infactTime": "0",
-                        "percent": "0",
                         "endTime": "01/31/2016",
-                        "completedTime": "0"
+                        "dueTime": "55",
+                        "completedTime": "0",
+                        "lable": "01/31/2016",
+                        "startTime": "12/07/2015",
+                        "percent": "0"
                     }
                 ],
+                "stationName": "工位3",
+                "stationNum": "3",
+                "currentStage": "1",
                 "projectBelong": "B1091"
             }
         ]
