@@ -1,0 +1,45 @@
+create table user(
+	uid int primary key auto_increment,
+	un varchar(10),
+	pw varchar(20),
+	role varchar(8)
+);
+
+create table project(
+	projectID int primary key auto_increment,
+	projectName varchar(20),
+	projectCodeNo varchar(20),
+	projectDutyman varchar(10),
+	foreign key (projectDutyman) references user(un),
+);
+
+create table station(
+	stationID int primary key auto_increment,
+	stationName varchar(20),
+	stationNo int,
+	stationDutyman varchar(10),
+	starttime datetime,
+	blueprintQuantity int,
+	currentStage int,
+	projectBelong varchar(20),
+	foreign key (stationDutyman) references user(un),
+	foreign key (blueprintQuantity) references stage(stageSequence),
+	foreign key (projectBelong) references project(projectName)
+);
+
+create table stage(
+	stageID int primary key auto_increment,
+	stageName varchar(10),
+	stageSequence int,
+	starttime datetime,
+	endtime datetime,
+	completedTime datetime,
+	progress float,
+	status varchar(10),
+	stageDutyman varchar(10),
+	projectBelong varchar(20),
+	stationBelong varchar(20),
+	foreign key (stageDutyman) references user(un),
+	foreign key (projectBelong) references project(projectName),
+	foreign key (stationBelong) references station(stationName)
+);

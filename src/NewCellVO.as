@@ -7,18 +7,14 @@ package
 	public class NewCellVO 
 	{
 		private var _lable:String;
-		private var _projectBelong:String;
-		private var _stationBelong:String;
-		private var _percent:Number;
+		private var _stageID:String;
+		private var _percent:String;
 		private var _statusFlag:String;
-		private var _stageNum:String;
 
-		public function NewCellVO(_lable:String, _projectBelong:String, _stationBelong:String,_stageNum:String = null, _percent:Number = NaN, _statusFlag:String = "TEXT" ) 
+		public function NewCellVO(_lable:String, _stageID:String = "", _percent:String = "溢出", _statusFlag:String = "TEXT" ) 
 		{
 			this._lable = _lable;
-			this._projectBelong = _projectBelong;
-			this._stationBelong = _stationBelong;
-			this._stageNum = _stageNum;
+			this._stageID = _stageID;
 			this._percent = _percent;
 			this._statusFlag = _statusFlag;
 		}
@@ -32,32 +28,14 @@ package
 			_lable = value;
 		}
 		
-		public function get projectBelong():String 
-		{
-			return _projectBelong;
-		}
+
 		
-		public function set projectBelong(value:String):void 
-		{
-			_projectBelong = value;
-		}
-		
-		public function get stationBelong():String 
-		{
-			return _stationBelong;
-		}
-		
-		public function set stationBelong(value:String):void 
-		{
-			_stationBelong = value;
-		}
-		
-		public function get percent():Number 
+		public function get percent():String 
 		{
 			return _percent;
 		}
 		
-		public function set percent(value:Number):void 
+		public function set percent(value:String):void 
 		{
 			_percent = value;
 		}
@@ -72,15 +50,16 @@ package
 			_statusFlag = value;
 		}
 		
-		public function get stageNum():String 
+		public function get stageID():String 
 		{
-			return _stageNum;
+			return _stageID;
 		}
 		
-		public function set stageNum(value:String):void 
+		public function set stageID(value:String):void 
 		{
-			_stageNum = value;
+			_stageID = value;
 		}
+		
 	}
 
 }

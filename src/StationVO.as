@@ -11,13 +11,12 @@ package
 		private var _dutyMan:String;
 		private var _startPoint:String;
 		private var _stageArr:Array;
-		private var _projectBelong:String;
 		private var _stationNum:String;
+		private var _stageID:String;
 		
-		public function StationVO(_stationNum:String, _projectBelong:String, _stationName : String, _bluePrintNum : Number,  _dutyMan:String, _startPoint:String, _stageArr:Array) 
+		public function StationVO(_stationNum:String,_stationName:String, _bluePrintNum : Number,  _dutyMan:String, _startPoint:String, _stageArr:Array) 
 		{
 			this._stationNum = _stationNum;
-			this._projectBelong = _projectBelong;
 			this._stationName = _stationName;
 			this._bluePrintNum = _bluePrintNum;
 			this._dutyMan = _dutyMan;
@@ -75,15 +74,6 @@ package
 			_stationName = value;
 		}
 		
-		public function get projectBelong():String 
-		{
-			return _projectBelong;
-		}
-		
-		public function set projectBelong(value:String):void 
-		{
-			_projectBelong = value;
-		}
 		
 		public function get stationNum():String 
 		{
@@ -93,6 +83,16 @@ package
 		public function set stationNum(value:String):void 
 		{
 			_stationNum = value;
+		}
+		
+		public function get stageID():String 
+		{
+			return _stageID;
+		}
+		
+		public function set stageID(value:String):void 
+		{
+			_stageID = value;
 		}
 		
 	}

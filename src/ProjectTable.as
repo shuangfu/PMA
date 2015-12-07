@@ -11,9 +11,11 @@ package
 	{
 		private var pvo:ProjectVO;
 		private var tableHead:TableHead;
-		public function ProjectTable(projectObj:Object) 
+		private var func:Function;
+		public function ProjectTable(projectObj:Object,func:Function) 
 		{
 			super();
+			this.func = func;
 			drawTable(projectObj);
 		}
 		
@@ -27,7 +29,7 @@ package
 		}
 		public function drawTable(projectObj:Object):void 
 		{
-			pvo = new ProjectVO(projectObj["projectName"], projectObj["projectCode"], projectObj["projectDutyMan"], projectObj["stationArr"] as Array, projectObj["tableHeadArr"] as Array);
+			pvo = new ProjectVO(projectObj["projectName"], projectObj["projectDataVO"]);
 			tableHead = new TableHead();
 			(tableHead.tableHead as TextField).text = pvo.projectName;
 			this.addChild(tableHead);
@@ -35,8 +37,9 @@ package
 			var sl:StationLine;
 			for (var i:int = 0; i < pvo.stationArr.length; i++) 
 			{
-				tempStationVO = new StationVO(pvo["stationArr"][i]["stationNum"], pvo["stationArr"][i]["projectBelong"], pvo["stationArr"][i]["stationName"], pvo["stationArr"][i]["bluePrintNum"], pvo["stationArr"][i]["dutyMan"], pvo["stationArr"][i]["startPoint"], pvo["stationArr"][i]["stageArr"]);
-				sl = new StationLine(tempStationVO);
+				//_stationNum:String, _projectBelong:String, _stationName : String, _bluePrintNum : Number,  _dutyMan:String, _startPoint:String, _stageArr:Array
+				tempStationVO = new StationVO(pvo["stationArr"][i]["stationNo"], pvo["stationArr"][i]["stationName"], pvo["stationArr"][i]["bluePrintQ"], pvo["stationArr"][i]["stageDutyman"], pvo["stationArr"][i]["stationStartTime"], pvo["stationArr"][i]["stageArr"]);
+				sl = new StationLine(tempStationVO,func);
 				sl.x = 0;
 				sl.y = 85 + i * 25;
 				this.addChild(sl);

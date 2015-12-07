@@ -13,7 +13,7 @@ package
 		private var _lable:String;
 		private var _projectBelong:String;
 		private var _stationBelong:String;
-		private var _percent:Number;
+		private var _percent:String;
 		private var _statusFlag:String;
 		
 		private var _tiWidth:Number;
@@ -34,11 +34,24 @@ package
 			this._tiWidth = _tiWidth;
 			this._tiHeight = _tiHeight;
 			this._theVO = _theVO;
-			trace("init Cell:", _theVO.projectBelong, "|", _theVO.stationBelong, "|", _theVO.stageNum);
+			//trace("init Cell:", _theVO.projectBelong, "|", _theVO.stationBelong, "|", _theVO.stageNum);
 			drawBackground(this._theVO.statusFlag);
 			drawBorder(this._theVO.statusFlag);
 			addTextField(_theVO.lable);
 			drawStatus(this._theVO.statusFlag);
+			drawHandler();
+		}
+		
+		public function drawHandler():void 
+		{
+			var handlerSprite:Sprite = new Sprite();
+			handlerSprite.graphics.beginFill(0xFF0000,0);
+			//var tempNumber:Number = this.progress - int(this.progress);
+			//var tempWidth:Number = _tiWidth * tempNumber;
+			
+			handlerSprite.graphics.drawRect(0, 0, _tiWidth, _tiHeight);
+			handlerSprite.graphics.endFill();
+			this.addChild(handlerSprite);
 		}
 		
  		private function drawStatus(statusFlag:String):void {
@@ -69,7 +82,11 @@ package
 			textField.multiline = false;
 			textField.type = TextFieldType.DYNAMIC;
 			textField.border = false;
-
+			
+			//if (this._theVO.statusFlag == "RUNNING") 
+			//{
+				//cellText = cellText + "%";
+			//}
 			textField.text = cellText;
 			
 			if (this._theVO.statusFlag == "TEXT") 
@@ -78,7 +95,7 @@ package
 			} else {
 				textField.setTextFormat(Robot_TextFormater.getTextFormat(Robot_TextFormater.CONTENTBAR_MATCHCONTENT));
 			}
-			if (Number(this._theVO.percent) >= 1) 
+			if (Number(Number(this._theVO.percent)) >= 100) 
 			{
 				textField.setTextFormat(Robot_TextFormater.getTextFormat(Robot_TextFormater.CONTENTBAR_MATCHCOMP));
 			}
@@ -93,27 +110,29 @@ package
 		{
 			var sprBackground:Shape = new Shape();			
 			var tempColor:Number;
+			trace("percent:", this._theVO.percent);
+			var progress:Number = Number(this._theVO.percent);
 			if (this._theVO.statusFlag != "TEXT") {
-				if (this._theVO.statusFlag == "UNBEGINNING") 
-				{
-					tempColor = 0xFFF9C1;
-				}else {
-					if (this._theVO.percent < 0) {
+				//if (this._theVO.statusFlag == "UNBEGINNING") 
+				//{
+					//tempColor = 0xFFF9C1;
+				//}else {
+					if (progress < 0) {
 					tempColor = 0xF2F1E1;
-					} else if (this._theVO.percent < 0.5) {
+					} else if (progress < 50) {
 						tempColor = 0x71BAEB;
-					} else if (this._theVO.percent < 1){
+					} else if (progress < 100){
 						tempColor = 0xF3AE0D;
-					} else if (this._theVO.percent <= 2) {
+					} else if (progress <= 200) {
 						tempColor = 0xFF7575;
-					} else if (this._theVO.percent <= 3) {
+					} else if (progress <= 300) {
 						tempColor = 0xD81C23;
-					} else if (this._theVO.percent <= 4) {
+					} else if (progress <= 400) {
 						tempColor = 0x8E1114;
 					} else {
 						tempColor = 0x530B0D;
 					}
-				}
+				//}
 			
 			} else {
 				tempColor = 0xECF3F3;

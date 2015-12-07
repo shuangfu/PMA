@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - lyric_PMA@localhost" uuid="bf3fbaf9-846e-4e1d-8faa-207826cee9a4">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>lyric_pma.*</schema-pattern>
+      <default-schemas>lyric_pma.*</default-schemas>
+    </data-source>
+  </component>
+</project>
