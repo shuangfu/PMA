@@ -40,7 +40,10 @@ package
 				cellArr[i].x = tempX;
 				tempX += cellArr[i].width - 1;
 				cellArr[i].y = 0;
-				(cellArr[i] as NewCell).addEventListener(MouseEvent.CLICK, func);
+				if (i > 4) 
+				{
+					(cellArr[i] as NewCell).addEventListener(MouseEvent.CLICK, func);
+				}
 				addChild(cellArr[i]);
 			}
 		}

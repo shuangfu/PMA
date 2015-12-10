@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from sqlite3 import connect
 
 import tornado.ioloop
 import tornado.web
@@ -17,7 +18,10 @@ def strToDate(tempStr):
 class IndexHandler(tornado.web.RequestHandler):
     def get(self):
         self.render('Main.html')
+        print("IP:%s has connect." % (self.request.remote_ip))
 
+class InputData(tornado.web.RequestHandler):
+    pass
 class LoginHandler(tornado.web.RequestHandler):
     def get(self):
         password = self.get_argument('pw')
@@ -46,6 +50,10 @@ class ChangeStageInfo(tornado.web.RequestHandler):
         print("sql:",sqlStr)
         cur.execute(sqlStr)
         conn.commit()
+        sqlStr = "UPDATE stage SET completedTime=now() WHERE stageID='%s'" % (stageID)
+        print("sql:",sqlStr)
+        cur.execute(sqlStr)
+        conn.commit()
         sqlStr = """
             SELECT stageSequence
             FROM stage
@@ -63,6 +71,7 @@ class ChangeStageInfo(tornado.web.RequestHandler):
             """ % (str(int(tempSequence) + 1))
         data = cur.fetchmany(cur.execute(sqlStr))
         conn.commit()
+
         print(data)
         sqlStr = """
                 UPDATE stage
@@ -106,7 +115,8 @@ class GetStageInfo(tornado.web.RequestHandler):
                 FROM stage
                 WHERE stageID='%s'
             """ % (stageID)
-            tempObj['progress'] = data[0] if data[0] > 0 else 1
+            data = cur.fetchmany(cur.execute(sqlStr))
+            tempObj['progress'] = data[0][0] if float(data[0][0]) > 0 else 1
         else:
             tempObj['progress'] = 0
         self.write(json.dumps(tempObj,ensure_ascii=False))
@@ -172,7 +182,11 @@ class GetProjectInfo(tornado.web.RequestHandler):
         for tempII in dataI:
             tempObj = {}
             sqlStr = """
-                SELECT CASE WHEN status="RUNNING" THEN datediff(endtime,now()) ELSE date(starttime) END,stageID,CONVERT(TRUNCATE((datediff(now(),starttime) / CASE WHEN datediff(endtime,starttime)=0 THEN 1 ELSE datediff(endtime,starttime) END)*100,1),char),status
+                SELECT CASE
+                    WHEN status='RUNNING' THEN datediff(endtime,now())
+                    WHEN status='UNBEGINNING' THEN date(starttime)
+                    WHEN status='COMPLETED' THEN date(completedTime)
+                    END,stageID,CONVERT(TRUNCATE((datediff(now(),starttime) / CASE WHEN datediff(endtime,starttime)=0 THEN 1 ELSE datediff(endtime,starttime) END)*100,1),char),status
                 FROM stage
                 WHERE stationBelong='%s' and projectBelong='%s'
                 ORDER BY stageSequence
@@ -202,6 +216,7 @@ def main():
         (r'/getProjectInfo', GetProjectInfo),
         (r'/getStageInfo', GetStageInfo),
         (r'/changeStageInfo',ChangeStageInfo),
+        (r'/inputData',InputData),
     ]
     settings = \
     {

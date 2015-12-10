@@ -2,21 +2,21 @@
  * Window.as
  * Keith Peters
  * version 0.9.10
- * 
+ *
  * A draggable window. Can be used as a container for other components.
- * 
+ *
  * Copyright (c) 2011 Keith Peters
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -25,7 +25,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
- 
+
 package com.bit101.components
 {
 	import com.adobe.serialization.json.JSON;
@@ -60,7 +60,8 @@ package com.bit101.components
 		private var stageID:String;
 		private var stageInfo:Object;
 		private var changeStatusBtn:PushButton;
-		
+
+
 		/**
 		 * Constructor
 		 * @param parent The parent DisplayObjectContainer on which to add this Panel.
@@ -71,11 +72,12 @@ package com.bit101.components
 		public function StageDetailWindow(stageID:String,parent:DisplayObjectContainer=null, xpos:Number=0, ypos:Number=0, title:String="该阶段详细信息")
 		{
 			_title = title;
+			Stage.prototype.host = "192.168.1.168:8010"
 			this.stageID = stageID;
 			trace("stageID",stageID);
 			super(parent, xpos, ypos);
 		}
-		
+
 		/**
 		 * Initializes the component.
 		 */
@@ -84,7 +86,7 @@ package com.bit101.components
 			super.init();
 			setSize(215, 220);
 		}
-		
+
 		/**
 		 * Creates and adds the child display objects of this component.
 		 */
@@ -98,7 +100,7 @@ package com.bit101.components
 			_titleBar.height = 30;
 			super.addChild(_titleBar);
 			_titleLabel = new Label(_titleBar.content, 5, 6, _title);
-			
+
 			_grips = new Shape();
 			for(var i:int = 0; i < 4; i++)
 			{
@@ -111,12 +113,12 @@ package com.bit101.components
 			}
 			_titleBar.content.addChild(_grips);
 			_grips.visible = false;
-			
+
 			_panel = new Panel(null, 0, 30);
 			_panel.shadow = false;
 			_panel.visible = !_minimized;
 			super.addChild(_panel);
-			
+
 			_minimizeButton = new Sprite();
 			_minimizeButton.graphics.beginFill(0, 0);
 			_minimizeButton.graphics.drawRect(-10, -10, 20, 20);
@@ -132,24 +134,24 @@ package com.bit101.components
 			_minimizeButton.useHandCursor = true;
 			_minimizeButton.buttonMode = true;
 			_minimizeButton.addEventListener(MouseEvent.CLICK, onMinimize);
-			
+
 			_closeButton = new PushButton(null, 86, 7, "", onClose);
 			_closeButton.setSize(15, 15);
 
 			filters = [getShadow(4, false)];
-			var loader:URLLoader = new URLLoader();  
-			loader.addEventListener(Event.COMPLETE, stageInfoBackHandler);  
-			loader.load(new URLRequest( "http://192.168.1.168:8010/getStageInfo?stageID=" + stageID));//这里是你要获取JSON的路径  
+			var loader:URLLoader = new URLLoader();
+			loader.addEventListener(Event.COMPLETE, stageInfoBackHandler);
+			loader.load(new URLRequest( "http://" + Stage.prototype.host + "/getStageInfo?stageID=" + stageID));//这里是你要获取JSON的路径
 		}
-		
-		private function stageInfoBackHandler(e:Event):void 
+
+		private function stageInfoBackHandler(e:Event):void
 		{
 			stageInfo = new Object();
 			stageInfo = JSON.decode(URLLoader( e.target ).data);
 			//trace("=============");
 			var tempStageInfoPanel:StageInfoPanel = new StageInfoPanel();
 			var tempStatusFlag:String;
-			switch (stageInfo["status"]) 
+			switch (stageInfo["status"])
 			{
 				case "RUNNING":
 					tempStatusFlag = "进行中";
@@ -163,7 +165,7 @@ package com.bit101.components
 				default:
 			}
 			trace(stageInfo["progress"]);
-			//if (stageInfo["progress"] === undefined) 
+			//if (stageInfo["progress"] === undefined)
 			//{
 				//tempStageInfoPanel["progress"].text = "0";
 			//}else {
@@ -179,10 +181,10 @@ package com.bit101.components
 			tempStageInfoPanel.x = 20;
 			tempStageInfoPanel.y = 20;
 			_panel.addChild(tempStageInfoPanel);
-			if (tempStatusFlag == "进行中") 
+			if (tempStatusFlag == "进行中")
 			{
 
-					if (Stage.prototype.role == "pm") 
+					if (Stage.prototype.role == "pm")
 					{
 						changeStatusBtn = new PushButton(null,2,149,"设置成已完成",changeStageStatus);
 						changeStatusBtn.setSize(237, 30);
@@ -190,24 +192,24 @@ package com.bit101.components
 					}
 			}
 		}
-		
-		public function changeStageStatus(e:Event):void 
+
+		public function changeStageStatus(e:Event):void
 		{
-			var loader:URLLoader = new URLLoader();  
-			loader.addEventListener(Event.COMPLETE, stageStatusChangedHandler);  
-			loader.load(new URLRequest( "http://192.168.1.168:8010/changeStageInfo?stageID=" + stageID));//这里是你要获取JSON的路径  
+			var loader:URLLoader = new URLLoader();
+			loader.addEventListener(Event.COMPLETE, stageStatusChangedHandler);
+			loader.load(new URLRequest( "http://" + Stage.prototype.host + "/changeStageInfo?stageID=" + stageID));//这里是你要获取JSON的路径
 		}
-		
-		private function stageStatusChangedHandler(e:Event):void 
+
+		private function stageStatusChangedHandler(e:Event):void
 		{
 			trace("change stage info go back",e.target.data);
 			dispatchEvent(new Event(Event.COMPLETE));
 		}
-		
+
 		///////////////////////////////////
 		// public methods
 		///////////////////////////////////
-		
+
 		/**
 		 * Overridden to add new child to content.
 		 */
@@ -216,7 +218,7 @@ package com.bit101.components
 			content.addChild(child);
 			return child;
 		}
-		
+
 		/**
 		 * Access to super.addChild
 		 */
@@ -225,7 +227,7 @@ package com.bit101.components
 			super.addChild(child);
 			return child;
 		}
-		
+
 		/**
 		 * Draws the visual ui of the component.
 		 */
@@ -255,7 +257,7 @@ package com.bit101.components
 		///////////////////////////////////
 		// event handlers
 		///////////////////////////////////
-		
+
 		/**
 		 * Internal mouseDown handler. Starts a drag.
 		 * @param event The MouseEvent passed by the system.
@@ -270,7 +272,7 @@ package com.bit101.components
 			}
 			dispatchEvent(new Event(Event.SELECT));
 		}
-		
+
 		/**
 		 * Internal mouseUp handler. Stops the drag.
 		 * @param event The MouseEvent passed by the system.
@@ -280,21 +282,21 @@ package com.bit101.components
 			this.stopDrag();
 			stage.removeEventListener(MouseEvent.MOUSE_UP, onMouseGoUp);
 		}
-		
+
 		protected function onMinimize(event:MouseEvent):void
 		{
 			minimized = !minimized;
 		}
-		
+
 		protected function onClose(event:MouseEvent):void
 		{
 			dispatchEvent(new Event(Event.CLOSE));
 		}
-		
+
 		///////////////////////////////////
 		// getter/setters
 		///////////////////////////////////
-		
+
 		/**
 		 * Gets / sets whether or not this Window will have a drop shadow.
 		 */
@@ -314,7 +316,7 @@ package com.bit101.components
 		{
 			return _shadow;
 		}
-		
+
 		/**
 		 * Gets / sets the background color of this panel.
 		 */
@@ -327,7 +329,7 @@ package com.bit101.components
 		{
 			return _color;
 		}
-		
+
 		/**
 		 * Gets / sets the title shown in the title bar.
 		 */
@@ -340,7 +342,7 @@ package com.bit101.components
 		{
 			return _title;
 		}
-		
+
 		/**
 		 * Container for content added to this panel. This is just a reference to the content of the internal Panel, which is masked, so best to add children to content, rather than directly to the window.
 		 */
@@ -348,7 +350,7 @@ package com.bit101.components
 		{
 			return _panel.content;
 		}
-		
+
 		/**
 		 * Sets / gets whether or not the window will be draggable by the title bar.
 		 */
@@ -362,7 +364,7 @@ package com.bit101.components
 		{
 			return _draggable;
 		}
-		
+
 		/**
 		 * Gets / sets whether or not the window will show a minimize button that will toggle the window open and closed. A closed window will only show the title bar.
 		 */
@@ -383,7 +385,7 @@ package com.bit101.components
 		{
 			return _hasMinimizeButton;
 		}
-		
+
 		/**
 		 * Gets / sets whether the window is closed. A closed window will only show its title bar.
 		 */
@@ -407,7 +409,7 @@ package com.bit101.components
 		{
 			return _minimized;
 		}
-		
+
 		/**
 		 * Gets the height of the component. A minimized window's height will only be that of its title bar.
 		 */
@@ -459,7 +461,7 @@ package com.bit101.components
 
 		/**
 		 * Returns a reference to the shape showing the grips on the title bar. Can be used to do custom drawing or turn them invisible.
-		 */		
+		 */
 		public function get grips():Shape
 		{
 			return _grips;
