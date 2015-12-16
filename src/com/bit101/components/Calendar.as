@@ -45,7 +45,7 @@ package com.bit101.components
 		protected var _day:int;
 		protected var _dayButtons:Array = new Array();
 		protected var _month:int;
-		protected var _monthNames:Array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		protected var _monthNames:Array = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
 		protected var _selection:Shape;
 		protected var _year:int;
 		
@@ -262,7 +262,7 @@ package com.bit101.components
 		 */
 		public function get selectedDate():Date
 		{
-			return new Date(_year, _month, _day);
+			return new Date(_year, _month + 1, _day);
 		}
 
 		/**
@@ -270,7 +270,7 @@ package com.bit101.components
 		 */
 		public function get month():int
 		{
-			return _month;
+			return _month + 1;
 		}
 
 		/**

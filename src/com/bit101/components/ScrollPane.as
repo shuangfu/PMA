@@ -169,11 +169,11 @@ package com.bit101.components
 		protected function onMouseGoDown(event:MouseEvent):void
 		{
 			content.startDrag(false, new Rectangle(0, 0, Math.min(0, _width - content.width - 10), Math.min(0, _height - content.height - 10)));
-			stage.addEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+			stage.addEventListener(MouseEvent.MOUSE_MOVE, mouseMoveHandler);
 			stage.addEventListener(MouseEvent.MOUSE_UP, onMouseGoUp);
 		}
 		
-		protected function onMouseMove(event:MouseEvent):void
+		protected function mouseMoveHandler(event:MouseEvent):void
 		{
 			_hScrollbar.value = -content.x;
 			_vScrollbar.value = -content.y;
@@ -182,7 +182,7 @@ package com.bit101.components
 		protected function onMouseGoUp(event:MouseEvent):void
 		{
 			content.stopDrag();
-			stage.removeEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+			stage.removeEventListener(MouseEvent.MOUSE_MOVE, mouseMoveHandler);
 			stage.removeEventListener(MouseEvent.MOUSE_UP, onMouseGoUp);
 		}
 

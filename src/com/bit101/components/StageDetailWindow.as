@@ -29,6 +29,8 @@
 package com.bit101.components
 {
 	import com.adobe.serialization.json.JSON;
+	import com.greensock.TweenLite;
+	import com.readdream.as3.robot.Robot_TextFormater;
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	import flash.display.Shape;
@@ -38,6 +40,7 @@ package com.bit101.components
 	import flash.events.MouseEvent;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
+	import flash.text.TextField;
 
 	[Event(name="select", type="flash.events.Event")]
 	[Event(name="close", type="flash.events.Event")]
@@ -72,7 +75,6 @@ package com.bit101.components
 		public function StageDetailWindow(stageID:String,parent:DisplayObjectContainer=null, xpos:Number=0, ypos:Number=0, title:String="该阶段详细信息")
 		{
 			_title = title;
-			Stage.prototype.host = "192.168.1.168:8010"
 			this.stageID = stageID;
 			trace("stageID",stageID);
 			super(parent, xpos, ypos);
@@ -134,10 +136,11 @@ package com.bit101.components
 			_minimizeButton.useHandCursor = true;
 			_minimizeButton.buttonMode = true;
 			_minimizeButton.addEventListener(MouseEvent.CLICK, onMinimize);
-
-			_closeButton = new PushButton(null, 86, 7, "", onClose);
+			var tempX:int = Style.fontSize;
+			Style.fontSize = 8
+			_closeButton = new PushButton(null, 86, 7, "X", onClose);
 			_closeButton.setSize(15, 15);
-
+			Style.fontSize = tempX;
 			filters = [getShadow(4, false)];
 			var loader:URLLoader = new URLLoader();
 			loader.addEventListener(Event.COMPLETE, stageInfoBackHandler);
@@ -177,13 +180,18 @@ package com.bit101.components
 			tempStageInfoPanel["stageDutyman"].text = stageInfo["stageDutyman"];
 			tempStageInfoPanel["status"].text = tempStatusFlag;
 			tempStageInfoPanel["dueDays"].text = stageInfo["dueDays"];
+			//tempStageInfoPanel["progress"].setTextFormat(Robot_TextFormater.getTextFormat(Robot_TextFormater.STATUSBAR_LOGINTEXT));
+			
+			if (Number(stageInfo["progress"]) > 100) 
+			{
+				tempStageInfoPanel.setProgressColor();
+			}
 			tempStageInfoPanel["progress"].text = stageInfo["progress"];
 			tempStageInfoPanel.x = 20;
 			tempStageInfoPanel.y = 20;
 			_panel.addChild(tempStageInfoPanel);
 			if (tempStatusFlag == "进行中")
 			{
-
 					if (Stage.prototype.role == "pm")
 					{
 						changeStatusBtn = new PushButton(null,2,149,"设置成已完成",changeStageStatus);

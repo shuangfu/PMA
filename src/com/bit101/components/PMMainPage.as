@@ -117,6 +117,10 @@ package com.bit101.components
 		 */
 		override protected function addChildren():void
 		{
+			Style.fontSize = 13;
+            Style.embedFonts = false;
+            Style.fontName = 'Verdana';
+			Style.setStyle("light");
 			_titleBar = new Panel();
 			_titleBar.filters = [];
 			_titleBar.buttonMode = false;
@@ -136,8 +140,11 @@ package com.bit101.components
 			scollPanel = new ScrollPane(_panel, 0, tableHeadMargin);
 			scollPanel.autoHideScrollBar = true;
 			var hint :Label = new Label(_panel,10,15,"您所负责的项目中，有" + inputData.length + "个目前处于延期状态，明细如下：");
-			var tagY:Number = 20;
-			trace("stdstd",inputData);
+			var tagY:Number = 0;
+			trace("stdstd", inputData);
+			var inputDataEnterBtn:PushButton = new PushButton(_panel, 540, 5, "新增项目");
+			inputDataEnterBtn.setSize(100, 35);
+			inputDataEnterBtn.addEventListener(MouseEvent.CLICK,inputDataHandler);
 			for (var i:int = 0; i < inputData.length; i++)
 			{
 				
@@ -153,7 +160,7 @@ package com.bit101.components
 					var tempArr:Array = (tempArray[j] as String).split("|");
 					tempStageObj['stationName'] = tempArr[0];
 					tempStageObj['stageName'] = tempArr[1];
-					tempStageObj['delayDays'] = tempArr[2];
+					tempStageObj['delayDays'] = tempArr[2];																
 					tempStageObj['process'] = tempArr[3];
 					tempStageObj['dutyMan'] = tempArr[4];
 					(tempObjVO['lineArr'] as Array).push(tempStageObj);
@@ -172,6 +179,13 @@ package com.bit101.components
 
 			filters = [getShadow(4, false)];
 			TweenLite.from(this, 1, { alpha:0,ease:Circ.easeOut});
+		}
+		
+		private function inputDataHandler(e:MouseEvent):void 
+		{
+			dataObj = new Object();
+			dataObj["route"] = "6"
+			TweenLite.to(this,0.3,{alpha:0,onComplete:onCompletedHandler});
 		}
 		
 		private function tableClickHandler(e:MouseEvent):void 

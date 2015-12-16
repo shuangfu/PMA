@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16687aa3-c3d4-4ef7-b0bf-b4644ef8a8bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.fla" afterPath="$PROJECT_DIR$/src/Main.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/Main.swf" afterPath="$PROJECT_DIR$/src/static/Main.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainInputData.fla" afterPath="$PROJECT_DIR$/src/MainInputData.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/Calendar.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/Calendar.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/GMMainPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/GMMainPage.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/InputDataWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/InputDataWindow.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/LoginWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/LoginWindow.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PMA.iml" afterPath="$PROJECT_DIR$/.idea/PMA.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewCell.as" afterPath="$PROJECT_DIR$/src/NewCell.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/PMMainPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/PMMainPage.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/ProjectDetailPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/ProjectDetailPage.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProjectTable.as" afterPath="$PROJECT_DIR$/src/ProjectTable.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Robot_TextFormater.as" afterPath="$PROJECT_DIR$/src/Robot_TextFormater.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/ScrollPane.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/ScrollPane.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/StageDetailWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/StageDetailWindow.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StationLine.as" afterPath="$PROJECT_DIR$/src/StationLine.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/pmaConfig.old" afterPath="$PROJECT_DIR$/obj/pmaConfig.old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/pmaConfig.xml" afterPath="$PROJECT_DIR$/obj/pmaConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PMA.iws" />
@@ -24,7 +38,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PMA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1449567144824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PMA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1451519282373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/PMA$main.coverage" NAME="main Coverage Results" MODIFIED="1448205273173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -74,66 +88,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4666667">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            <state vertical-scroll-proportion="-11.0">
+              <caret line="55" column="106" selection-start-line="53" selection-start-column="12" selection-end-line="55" selection-end-column="106" />
+              <folding>
+                <element signature="e#47#74#0" expanded="true" />
+                <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+                <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+                <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+                <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+                <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+                <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+                <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+                <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+                <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+                <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+                <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+                <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+                <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+                <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+                <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+                <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+                <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+                <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyric_pma.stage" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..stage">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DATABASE/bf3fbaf9-846e-4e1d-8faa-207826cee9a4" pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/bf3fbaf9-846e-4e1d-8faa-207826cee9a4">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>bf3fbaf9-846e-4e1d-8faa-207826cee9a4</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
-                <node x="369.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.station</node>
-                <node x="417.0" y="244.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.user</node>
-                <node x="0.0" y="330.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.project</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
-              <SelectedNodes>
-                <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Columns</Category>
-                <Category>Key columns</Category>
-              </Categories>
+      <file leaf-file-name="Main.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
+                <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
+                <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
+                <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.py">
+      <file leaf-file-name="Stage1.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stage1.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5831325">
-              <caret line="173" column="26" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
-              <folding>
-                <element signature="e#47#74#0" expanded="true" />
-                <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-                <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-                <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-                <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-                <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-                <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-                <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-                <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-                <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-                <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-                <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-                <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-                <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-                <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-                <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-                <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.072487645">
+              <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql_events.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +199,9 @@
         <option value="$PROJECT_DIR$/DB/data.json" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql" />
+        <option value="&lt;3c5023f6-3733-4e2a-8c7d-61340c38c542&gt;/F:\data\temporary\pma\py\src\main.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql" />
       </list>
     </option>
   </component>
@@ -187,7 +229,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -199,8 +241,34 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PMA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PMA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,14 +276,6 @@
               <option name="myItemId" value="PMA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.4.3 (C:\Python34\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -238,42 +298,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PMA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PMA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PMA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PMA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,6 +321,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,9 +333,9 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
@@ -343,24 +368,6 @@
       <module name="PMA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PMA" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -553,14 +560,31 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PMA" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -593,22 +617,22 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37" sideWeight="0.42332268" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28555554" sideWeight="0.42332268" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5088889" sideWeight="0.442492" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12966916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46478122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19222577" sideWeight="0.5116641" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26222223" sideWeight="0.442492" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15495208" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12513313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19222577" sideWeight="0.5054432" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,11 +656,134 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SelfDateUtil.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="87" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="500" selection-start-line="0" selection-start-column="500" selection-end-line="0" selection-end-column="500" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -653,7 +800,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="566.0" y="262.0" />
           <SelectedNodes>
             <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
           </SelectedNodes>
@@ -661,48 +808,14 @@
             <Category>Columns</Category>
             <Category>Key columns</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/tornado/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -737,22 +850,212 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/bf3fbaf9-846e-4e1d-8faa-207826cee9a4">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>bf3fbaf9-846e-4e1d-8faa-207826cee9a4</OriginalElement>
+          <nodes>
+            <node x="369.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.station</node>
+            <node x="0.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+            <node x="417.0" y="244.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.user</node>
+            <node x="0.0" y="330.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.project</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
+          <SelectedNodes>
+            <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="500" selection-start-line="0" selection-start-column="500" selection-end-line="0" selection-end-column="500" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/bf3fbaf9-846e-4e1d-8faa-207826cee9a4">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>bf3fbaf9-846e-4e1d-8faa-207826cee9a4</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+            <node x="369.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.station</node>
+            <node x="417.0" y="244.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.user</node>
+            <node x="0.0" y="330.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.project</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
+          <SelectedNodes>
+            <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/bf3fbaf9-846e-4e1d-8faa-207826cee9a4">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>bf3fbaf9-846e-4e1d-8faa-207826cee9a4</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+            <node x="369.0" y="0.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.station</node>
+            <node x="417.0" y="244.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.user</node>
+            <node x="0.0" y="330.0">bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.project</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
+          <SelectedNodes>
+            <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -761,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,22 +1098,24 @@
           <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -820,7 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,22 +1158,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -881,22 +1186,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -907,22 +1214,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -933,22 +1242,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -959,22 +1270,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -985,22 +1298,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1011,22 +1326,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1037,22 +1354,24 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1064,19 +1383,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/tornado/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73333335">
-          <caret line="129" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3200" selection-end-column="0" />
-          <folding />
+    <entry file="uml://Python/#F:/data/workspaces/lyric/CM/平台应用/平台/PMA/src/main.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#F:/data/workspaces/lyric/CM/平台应用/平台/PMA/src/main.py</OriginalElement>
+          <nodes>
+            <node x="" y="">src.main.GetProjectInfo</node>
+            <node x="" y="">src.main.GetStageInfo</node>
+            <node x="" y="">src.main.GetProjectDelayInfo</node>
+            <node x="" y="">src.main.LoginHandler</node>
+            <node x="" y="">_collections_abc.Hashable</node>
+            <node x="" y="">src.main.IndexHandler</node>
+            <node x="" y="">src.main.ChangeStageInfo</node>
+            <node x="" y="">object</node>
+            <node x="" y="">tornado.web.RequestHandler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.958904109589041" x="647.0" y="138.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+    <entry file="file://C:/Python34/Lib/site-packages/tornado/netutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4666667">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="1.2920518">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1093,7 +1428,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="207.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="566.0" y="262.0" />
           <SelectedNodes>
             <node>bf3fbaf9-846e-4e1d-8faa-207826cee9a4.table:lyric_pma.stage</node>
           </SelectedNodes>
@@ -1101,32 +1436,107 @@
             <Category>Columns</Category>
             <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SelfDateUtil.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35280642">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
+            <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25773194">
+          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..stage">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5831325">
-          <caret line="173" column="26" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+        <state vertical-scroll-proportion="-11.0">
+          <caret line="55" column="106" selection-start-line="53" selection-start-column="12" selection-end-line="55" selection-end-column="106" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1449566620985" expanded="true" signature="916:948" placeholder="select * fro..user..." />
-            <marker date="1449566620985" expanded="true" signature="1733:1787" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1733:2062" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="1898:1953" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="2079:2153" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2361:2443" placeholder="SELECT stage..stage..." />
-            <marker date="1449566620985" expanded="true" signature="2621:2705" placeholder="UPDATE stage..." />
-            <marker date="1449566620985" expanded="true" signature="3174:3300" placeholder="SELECT start..stage..." />
-            <marker date="1449566620985" expanded="true" signature="3820:4033" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="4246:4467" placeholder="SELECT CONVE..stage..." />
-            <marker date="1449566620985" expanded="true" signature="5107:5142" placeholder="select role ..user..." />
-            <marker date="1449566620985" expanded="true" signature="5803:6302" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="6524:6559" placeholder="SELECT name ..user..." />
-            <marker date="1449566620985" expanded="true" signature="6660:7197" placeholder="SELECT p.pro..project..." />
-            <marker date="1449566620985" expanded="true" signature="8038:8314" placeholder="SELECT disti..project..." />
-            <marker date="1449566620985" expanded="true" signature="8899:9117" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
+            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
+            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
+            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
+            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
+            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
+            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
+            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072487645">
+          <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>

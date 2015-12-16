@@ -28,12 +28,26 @@ package
 			cellArr.push(new NewCell(new NewCellVO(_stationVO["stationNum"]), 40 , 25));
 			cellArr.push(new NewCell(new NewCellVO(_stationVO.stationName), 200 , 25));
 			cellArr.push(new NewCell(new NewCellVO(_stationVO.bluePrintNum.toString())));
-			cellArr.push(new NewCell(new NewCellVO(_stationVO.DutyMan)));
+			var tempFlag = 0;
+			for (var k:int = 0; k < _stationVO.stageArr.length ; k++) 
+			{
+				if (_stationVO.stageArr[k][5] == "RUNNING") {
+					cellArr.push(new NewCell(new NewCellVO(_stationVO.stageArr[k][3])));
+					tempFlag = 1;
+				}else {
+					//cellArr.push(new NewCell(new NewCellVO("无数据")));
+				}
+			}
+			if (tempFlag == 0) 
+			{
+				cellArr.push(new NewCell(new NewCellVO("无")));
+			}
+			
 			cellArr.push(new NewCell(new NewCellVO(_stationVO.startPoint)));
 			for (var j:int = 0; j < _stationVO.stageArr.length ; j++) 
 			{
 				trace("===",_stationVO.stageArr[j][2],"===");
-				cellArr.push(new NewCell(new NewCellVO(_stationVO.stageArr[j][0],_stationVO.stageArr[j][1],_stationVO.stageArr[j][2],_stationVO.stageArr[j][3])));
+				cellArr.push(new NewCell(new NewCellVO(_stationVO.stageArr[j][0],_stationVO.stageArr[j][1],_stationVO.stageArr[j][4],_stationVO.stageArr[j][5])));
 			}
 			for (var i:int = 0; i < cellArr.length; i++) 
 			{
@@ -46,6 +60,7 @@ package
 				}
 				addChild(cellArr[i]);
 			}
+			trace("totally stage quantity:", cellArr.length);
 		}
 		
 		

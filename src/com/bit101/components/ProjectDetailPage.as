@@ -116,7 +116,6 @@ package com.bit101.components
 				_height = this.stage.stageHeight - 130;
 				draw();
 			}
-		
 		}
 		
 		/**

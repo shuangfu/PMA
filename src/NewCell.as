@@ -87,7 +87,14 @@ package
 			//{
 				//cellText = cellText + "%";
 			//}
-			textField.text = cellText;
+			if (cellText != null) 
+			{
+				textField.text = cellText;
+			} else 
+			{
+				textField.text = "无数据";
+			}
+			
 			
 			if (this._theVO.statusFlag == "TEXT") 
 			{

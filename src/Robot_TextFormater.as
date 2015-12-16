@@ -293,10 +293,10 @@ package
 				case "statusbar_logintext":
 					//font settings
 					textFont = new TextFormat();
-					textFont.size = 12;
+					textFont.size = 14;
 					textFont.leading = 5;
-					textFont.align = TextFormatAlign.RIGHT;
-					textFont.color = 0x262626;
+					textFont.align = TextFormatAlign.CENTER;
+					textFont.color = 0xFF0000;
 					textFont.font = "宋体";
 					return textFont;
 				

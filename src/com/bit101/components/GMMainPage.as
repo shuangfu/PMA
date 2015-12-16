@@ -117,6 +117,10 @@ package com.bit101.components
 		 */
 		override protected function addChildren():void
 		{
+			Style.fontSize = 13;
+            Style.embedFonts = false;
+            Style.fontName = 'Verdana';
+			Style.setStyle("light");
 			_titleBar = new Panel();
 			_titleBar.filters = [];
 			_titleBar.buttonMode = false;
@@ -136,7 +140,7 @@ package com.bit101.components
 			scollPanel = new ScrollPane(_panel, 0, tableHeadMargin);
 			scollPanel.autoHideScrollBar = true;
 			var hint :Label = new Label(_panel,10,15,"所有在制项目中，有" + inputData.length + "个目前处于延期状态，明细如下：");
-			var tagY:Number = 20;
+			var tagY:Number = 0;
 			trace("stdstd",inputData);
 
 				var tempObjVO:Object = new Object();

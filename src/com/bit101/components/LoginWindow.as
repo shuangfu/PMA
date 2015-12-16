@@ -34,6 +34,7 @@ package com.bit101.components
 	import flash.display.DisplayObjectContainer;
 	import flash.display.Shape;
 	import flash.display.Sprite;
+	import flash.display.Stage;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.net.URLLoader;
@@ -136,7 +137,7 @@ package com.bit101.components
 			_hintLabel.alpha = 0;
 
 			filters = [getShadow(4, false)];
-			TweenLite.from(super, 0.3, { alpha:0});
+			TweenLite.from(super, 0.3, {alpha:0});
 		}
 		
 		public function submitClickHandler(e:MouseEvent):void 
@@ -144,7 +145,7 @@ package com.bit101.components
 			var loader:URLLoader = new URLLoader();  
 			loader.addEventListener(Event.COMPLETE, loginResHandler);  
 			un = _unTextField.text;
-			loader.load(new URLRequest( "http://192.168.1.168:8010/login?un=" + un + '&pw=' + _pwTextField.text));//这里是你要获取JSON的路径  
+			loader.load(new URLRequest( "http://" + Stage.prototype.host + "/login?un=" + un + '&pw=' + _pwTextField.text));//这里是你要获取JSON的路径  
 		}
 		
 		private function loginResHandler(e:Event):void 

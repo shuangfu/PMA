@@ -10,11 +10,10 @@
     <table name="project" schema="" catalog="lyric_pma" type="TABLE">
       <column name="projectID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="projectName" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
-      <column name="projectCodeNo" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="projectCodeNo" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
       <column name="projectDutyman" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
-      <column name="projectStatus" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="projectStatus" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12" def="J1JVTk5JTkcn"/>
       <primary-key name="PRIMARY" columns="projectID"/>
-      <index name="projectCodeNo_UNIQUE" unique="true" columns="projectCodeNo"/>
       <index name="projectID_UNIQUE" unique="true" columns="projectID"/>
       <index name="projectName_UNIQUE" unique="true" columns="projectName"/>
     </table>
@@ -22,26 +21,28 @@
       <column name="stageID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="stageName" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
       <column name="stageSequence" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="starttime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
-      <column name="endtime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
-      <column name="completedTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="planningStartTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="planningEndTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="actualStartTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="actualEndTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="progress" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
-      <column name="status" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12" def="J1VOQkVHSU5OSU5HJw=="/>
       <column name="stageDutyman" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
       <column name="projectBelong" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <column name="stationBelong" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="stageID"/>
+      <index name="stageID_UNIQUE" unique="true" columns="stageID"/>
     </table>
     <table name="station" schema="" catalog="lyric_pma" type="TABLE">
       <column name="stationID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="stationSequence" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="stationName" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
-      <column name="stationNo" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="stationDutyman" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
       <column name="starttime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="stationDutyman" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
       <column name="blueprintQuantity" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="currentStage" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="projectBelong" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="stationID"/>
+      <index name="stationID_UNIQUE" unique="true" columns="stationID"/>
       <index name="projectName_idx" unique="false" columns="projectBelong"/>
     </table>
     <table name="user" schema="" catalog="lyric_pma" type="TABLE">
