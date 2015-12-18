@@ -46,13 +46,13 @@ package
 			mainContainer = new VBox(this, 0, 0);
 			mainContainer.spacing = 45;
 			mainContainer.alignment = "center";
-			
+
 			drawPageHead();
 			showLoginWindow();
 			this.stage.addEventListener(Event.ENTER_FRAME, enterFrameHandler);
 			dispatchVO.addEventListener(Event.COMPLETE,controlHandler);
 		}
-		
+
 
 		public function controlHandler(e:Event):void {
 			var loader:URLLoader;
@@ -60,9 +60,9 @@ package
 			var urlRequest;URLRequest;
 			switch (e.target.dataObj["route"])
 			{
-			case "1":
-				trace("login");
+				case "1":
 					this.realName = e.target.dataObj["realName"];
+					trace("login");
 					if (this.un == "")
 					{
 						this.un = e.target.dataObj["userName"];
@@ -83,7 +83,7 @@ package
 					urlRequest.data = variables;
 					loader.addEventListener(Event.COMPLETE, managerDataHandler);
 					loader.load(urlRequest);
-					
+
 				break;
 			case "2":
 					trace("importent:",this.role);
@@ -135,8 +135,8 @@ package
 				trace("no case care");
 			}
 		}
-		
-		public function sendNewProjectInfoToBack(tempObj:Object):void 
+
+		public function sendNewProjectInfoToBack(tempObj:Object):void
 		{
 			var jsonString : String = JSON.encode(tempObj);
 			var loader:URLLoader;
@@ -149,17 +149,18 @@ package
 			loader.addEventListener(Event.COMPLETE, sendSuccess);
 			loader.load(urlRequest);
 		}
-		
-		private function sendSuccess(e:Event):void 
+
+		private function sendSuccess(e:Event):void
 		{
 			trace("send new project data successed...");
 			dispatchVO.dataObj["route"] = "5";
 			dispatchVO.dataObj["type"] = "goback";
 			dispatchVO.dispatchEvent(new Event(Event.COMPLETE));
 		}
-		
-		public function showInputWindow():void 
+
+		public function showInputWindow():void
 		{
+			trace("ready to new project:",this.realName);
 			inputWindow = new InputDataWindow(mainContainer, 0, 0, "新项目数据录入",realName);
 			inputWindow.setSize(650, 400);
 			this.stage.dispatchEvent(new Event(Event.RESIZE));
@@ -190,7 +191,7 @@ package
             Style.embedFonts = false;
             Style.fontName = 'Verdana';
 			Style.setStyle("light");
-			var pageTitle:Label = new Label(mainContainer, 0, 0, "PMA - 利元亨项目管理助手  V0.2");
+			var pageTitle:Label = new Label(mainContainer, 0, 0, "PMA - 利元亨项目管理助手  V0.3.1");
 			//pageTitle.move((this.stage.stageWidth - pageTitle.width) / 2, 30);
 			Style.fontSize = 13;
 		}

@@ -26,7 +26,7 @@
  * THE SOFTWARE.
  */
 
-package com.bit101.components 
+package com.bit101.components
 {
 	import adobe.utils.CustomActions;
 	import com.adobe.serialization.json.JSON;
@@ -70,14 +70,14 @@ package com.bit101.components
 		public var dataObj:Object;
 		public var projectInfoVO:Object;
 		public var stageInfoArr:Array;
-		
+
 		public var stationArr:Array;
 		public var scollPanel:ScrollPane;
 		private var inputData:Object;
 
 		private var tableHeadMargin:Number = 45;
 		private var footerMargin:Number = 30;
-		
+
 		private var flag:int = 0;
 		private var nextBtn:PushButton;
 		private var spriteArr:Array;
@@ -136,7 +136,7 @@ package com.bit101.components
 			_titleLabel.color = 0xFFFFFF;
 
 			//_panel.visible = true;
-			
+
 			_panel = new Panel(null, 0, 30);
 			//_panel.visible = true;
 			_panel.shadow = false;
@@ -147,13 +147,13 @@ package com.bit101.components
 			/////////////////////////////////////////////////////////////////////////////////
 			//scollPanel = new ScrollPane(_panel, 0, tableHeadMargin);
 			//scollPanel.autoHideScrollBar = true;
-			
+
 			//scollPanel.addChild();
 
 			/////////////////////////////////////////////////////////////////////////////////
 			////
 			/////////////////////////////////////////////////////////////////////////////////
-			
+
 			var stage1:Stage1 = new Stage1();
 			var stage2:Stage2 = new Stage2();
 			var stage3:Stage3 = new Stage3();
@@ -182,7 +182,7 @@ package com.bit101.components
 			spriteArr.push(stage11);
 			spriteArr.push(stage12);
 			spriteArr.push(stage13);
-			
+
 			filters = [getShadow(4, false)];
 			TweenLite.from(this, 1, { alpha:0, ease:Circ.easeOut } );
 			spriteArr[0].x = (650 - spriteArr[0].width) / 2;
@@ -190,7 +190,7 @@ package com.bit101.components
 			spriteArr[0].transitionIn(_panel);
 			projectInfoVO = new Object();
 			projectInfoVO["stations"] = new Array();
-			for each (var i in spriteArr) 
+			for each (var i in spriteArr)
 			{
 				i.x = (650 - i.width) / 2;
 				i.y = 30;
@@ -199,88 +199,89 @@ package com.bit101.components
 			nextBtn.setSize(100, 35);
 
 		}
-		
-		private function nextHandler(e:MouseEvent):void 
+
+		private function nextHandler(e:MouseEvent):void
 		{
-			if (flag < 13) 
+			if (flag < 13)
 			{
-				if (flag == 0) 
+				if (flag == 0)
 				{
-					
+
 					//trace("create a new project, name is: ",projectInfoVO["projectName"]);
 				} else if (flag == 1) {
-					if (nextBtn.visible == false) 
+					if (nextBtn.visible == false)
 					{
 						nextBtn.visible = true;
 					}
-					
-				} else if (flag < 4) 
+
+				} else if (flag < 4)
 				{
-					
-				} else if (flag == 4) 
+
+				} else if (flag == 4)
 				{
-					
+
 				} else if(flag > 4)
 				{
-					
-					
+
+
 				}
-				
+
 				spriteArr[flag].transitionOut(showNext1);
 			} else {
 				nextBtn.label = "完成并返回";
 			}
-			
-		} 
 
-				
-		public function showNext1():void 
+		}
+
+
+		public function showNext1():void
 		{
 			trace("go here", flag);
 
-			if (flag == 0) 
+			if (flag == 0)
 			{
 				projectInfoVO["projectName"] = spriteArr[0].dataVO["projectName"];
 				projectInfoVO["realName"] = realName;
+				trace("has pm name :", projectInfoVO['realName'], realName);
 			}
-			if (flag == 1) 
+			if (flag == 1)
 			{
 				stationArr = new Array();
 				stationArr.push(spriteArr[flag].dataVO);
 				(projectInfoVO["stations"] as Array).push(stationArr);
 				//trace("create a new station:",projectInfoVO["stations"][(projectInfoVO["stations"] as Array).length][0]["stationName"]);
 			}
-			if (flag < 4 && flag > 1) 
+			if (flag < 4 && flag > 1)
 			{
 				stationArr.push(spriteArr[flag].dataVO);
 			}
-			if (flag == 4) 
+			if (flag == 4)
 			{
 				stageInfoArr = new Array();
 				stageInfoArr.push(spriteArr[flag].dataVO);
 				stationArr.push(stageInfoArr);
 			}
-			if (flag > 4) 
+			if (flag > 4)
 			{
 				stageInfoArr.push(spriteArr[flag].dataVO);
 			}
 			showNext2();
-			
+
 		}
 		public function showNext2():void {
 			flag++;
-			if (flag < 13) 
+			if (flag < 13)
 			{
-				if (nextBtn.visible == false) 
+				if (nextBtn.visible == false)
 					{
 						nextBtn.visible = true;
 					}
-				if (flag == 4) 
+				if (flag == 4)
 				{
 					//把整机开始的时间写入3D开始的时间
 					spriteArr[flag].starttimeBtn.text = spriteArr[flag - 1].starttime.text;
 					spriteArr[flag].endtimeBtn.text = spriteArr[flag - 1].starttime.text;
-				} else if (flag > 4) 
+				} else if (flag > 4)
 				{
 					//把每个阶段的开始时间设定为上个阶段的结束时间
 					spriteArr[flag].starttimeBtn.text = spriteArr[flag - 1].endtimeBtn.text;
@@ -293,7 +294,7 @@ package com.bit101.components
 				spriteArr[flag].transitionIn(_panel);
 			} else {
 				nextBtn.visible = false;
-				if (continueBtn == null) 
+				if (continueBtn == null)
 				{
 					continueBtn = new PushButton(_panel, 10, 10, "继续录入下个工位", continueInputHandler);
 					overBtn = new PushButton(_panel, 80, 10, "完成并返回", overInputHandler);
@@ -308,7 +309,9 @@ package com.bit101.components
 			_panel.content.removeChild(overBtn);
 			dataObj = new Object();
 				dataObj["route"] = "7";
+				projectInfoVO["realName"] = realName;
 				dataObj["projectInfo"] = projectInfoVO;
+
 				TweenLite.to(this,0.3,{alpha:0,onComplete:onCompletedHandler});
 				_panel.content.removeChild(nextBtn);
 		}
@@ -326,8 +329,8 @@ package com.bit101.components
 			parentContainer.stage.dispatchEvent(new Event(Event.RESIZE));
 			dispatchEvent(new Event(Event.COMPLETE));
 		}
-		
-		public function tableClickHandler(e:MouseEvent):void 
+
+		public function tableClickHandler(e:MouseEvent):void
 		{
 			trace(e.target.parent);
 			TweenLite.to(this,0.3,{alpha:0,onComplete:onCompletedHandler});

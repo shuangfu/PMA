@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16687aa3-c3d4-4ef7-b0bf-b4644ef8a8bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.fla" afterPath="$PROJECT_DIR$/src/Main.fla" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/Main.swf" afterPath="$PROJECT_DIR$/src/static/Main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainInputData.fla" afterPath="$PROJECT_DIR$/src/MainInputData.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/Calendar.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/Calendar.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/GMMainPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/GMMainPage.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GMViewTable.as" afterPath="$PROJECT_DIR$/src/GMViewTable.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GMViewTableLine.as" afterPath="$PROJECT_DIR$/src/GMViewTableLine.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/InputDataWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/InputDataWindow.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/LoginWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/LoginWindow.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NewCell.as" afterPath="$PROJECT_DIR$/src/NewCell.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/PMMainPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/PMMainPage.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/ProjectDetailPage.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/ProjectDetailPage.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProjectTable.as" afterPath="$PROJECT_DIR$/src/ProjectTable.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Robot_TextFormater.as" afterPath="$PROJECT_DIR$/src/Robot_TextFormater.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/ScrollPane.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/ScrollPane.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bit101/components/StageDetailWindow.as" afterPath="$PROJECT_DIR$/src/com/bit101/components/StageDetailWindow.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StationLine.as" afterPath="$PROJECT_DIR$/src/StationLine.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/index.html" afterPath="$PROJECT_DIR$/bin/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/pmaConfig.old" afterPath="$PROJECT_DIR$/obj/pmaConfig.old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/pmaConfig.xml" afterPath="$PROJECT_DIR$/obj/pmaConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DB/sql_events.sql" afterPath="$PROJECT_DIR$/src/DB/sql_events.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PMA.iws" />
@@ -38,7 +26,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PMA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1451519282373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/PMA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1450405517090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/PMA$main.coverage" NAME="main Coverage Results" MODIFIED="1448205273173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -81,6 +69,24 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - lyric_PMA@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="lyric_pma" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="project" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -88,47 +94,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.0">
-              <caret line="55" column="106" selection-start-line="53" selection-start-column="12" selection-end-line="55" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.7843803">
+              <caret line="263" column="37" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
               <folding>
                 <element signature="e#47#74#0" expanded="true" />
-                <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-                <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-                <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-                <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-                <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-                <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-                <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-                <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-                <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-                <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-                <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-                <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-                <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-                <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-                <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-                <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-                <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-                <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+                <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+                <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+                <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+                <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+                <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+                <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+                <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+                <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+                <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+                <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+                <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+                <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+                <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+                <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+                <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+                <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+                <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+                <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+                <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+                <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+                <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyric_pma.project" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..project">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="lyric_pma.stage" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..stage">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -137,33 +171,10 @@
         <entry file="file://$PROJECT_DIR$/src/Main.as">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
-                <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
-                <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
-                <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
+                <marker date="1450405211349" expanded="true" signature="958:1363" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stage1.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stage1.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.072487645">
-              <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +183,17 @@
         <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stage1.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stage1.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -198,10 +219,12 @@
         <option value="$PROJECT_DIR$/templates/welcome.html" />
         <option value="$PROJECT_DIR$/DB/data.json" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql" />
         <option value="&lt;3c5023f6-3733-4e2a-8c7d-61340c38c542&gt;/F:\data\temporary\pma\py\src\main.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql" />
+        <option value="$PROJECT_DIR$/src/DB/sql_events.sql" />
+        <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
   </component>
@@ -267,6 +290,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PMA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DB">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -325,9 +366,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -611,20 +652,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28555554" sideWeight="0.42332268" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30493274" sideWeight="0.42332268" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19222577" sideWeight="0.5116641" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26222223" sideWeight="0.442492" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15495208" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12513313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.118589744" sideWeight="0.48833594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24358974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19222577" sideWeight="0.5054432" order="2" side_tool="true" content_ui="tabs" />
@@ -633,6 +673,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26121077" sideWeight="0.442492" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -656,19 +697,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,24 +718,27 @@
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -720,10 +755,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
-            <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
+            <marker date="1450405211349" expanded="true" signature="958:1363" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -740,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,24 +789,27 @@
           <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -850,24 +884,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -910,24 +947,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -970,24 +1010,27 @@
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1038,24 +1081,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1098,24 +1144,27 @@
           <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1158,24 +1207,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1186,24 +1238,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1214,24 +1269,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1242,24 +1300,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1270,24 +1331,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1298,24 +1362,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1326,24 +1393,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1354,24 +1424,27 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>
@@ -1440,46 +1513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SelfDateUtil.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35280642">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <marker date="1450207311723" expanded="true" signature="8:8346" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="357:8343" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="1596:4254" placeholder="{...}" />
-            <marker date="1450207311723" expanded="true" signature="2862:4250" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,52 +1528,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..stage">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1450405211349" expanded="true" signature="958:1363" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stage1.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..stage">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0">
-          <caret line="55" column="106" selection-start-line="53" selection-start-column="12" selection-end-line="55" selection-end-column="106" />
-          <folding>
-            <element signature="e#47#74#0" expanded="true" />
-            <marker date="1450222430542" expanded="true" signature="2297:2450" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="2964:2996" placeholder="select * fro..user..." />
-            <marker date="1450222430542" expanded="true" signature="3783:3839" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="3950:4009" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="4135:4237" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4569" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4487:4619" placeholder="SELECT stage..stage..." />
-            <marker date="1450222430542" expanded="true" signature="4847:4939" placeholder="UPDATE stage..." />
-            <marker date="1450222430542" expanded="true" signature="5421:5579" placeholder="SELECT start..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6072:6325" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="6538:6799" placeholder="SELECT CONVE..stage..." />
-            <marker date="1450222430542" expanded="true" signature="7440:7475" placeholder="select role ..user..." />
-            <marker date="1450222430542" expanded="true" signature="8155:8766" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="8969:9004" placeholder="SELECT name ..user..." />
-            <marker date="1450222430542" expanded="true" signature="9124:9767" placeholder="SELECT p.pro..project..." />
-            <marker date="1450222430542" expanded="true" signature="10608:10792" placeholder="SELECT disti..project..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11024" placeholder="SELECT CASE ..." />
-            <marker date="1450222430542" expanded="true" signature="11001:11230" placeholder="SELECT CASE ..." />
-          </folding>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console_1.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072487645">
-          <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/sql_events.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/570f2b2f/bf3fbaf9-846e-4e1d-8faa-207826cee9a4/lyric_pma..project">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7843803">
+          <caret line="263" column="37" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+            <marker date="1450404919197" expanded="true" signature="2372:2547" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="3161:3193" placeholder="select * fro..user..." />
+            <marker date="1450404919197" expanded="true" signature="4034:4090" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4217:4276" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="4418:4520" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="4839:4971" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5205:5320" placeholder="UPDATE stage..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5526" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="5469:5539" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5743" placeholder="SELECT stage..stage..." />
+            <marker date="1450404919197" expanded="true" signature="5678:5759" placeholder="SELECT proje..project..." />
+            <marker date="1450404919197" expanded="true" signature="6376:6534" placeholder="SELECT plann..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7027:7280" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="7493:7754" placeholder="SELECT CONVE..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8083:8181" placeholder="SELECT proje..stage..." />
+            <marker date="1450404919197" expanded="true" signature="8856:8891" placeholder="select role ..user..." />
+            <marker date="1450404919197" expanded="true" signature="9571:10182" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="10474:10509" placeholder="SELECT name ..user..." />
+            <marker date="1450404919197" expanded="true" signature="10629:11229" placeholder="SELECT p.pro..project..." />
+            <marker date="1450404919197" expanded="true" signature="12177:12361" placeholder="SELECT disti..project..." />
+            <marker date="1450404919197" expanded="true" signature="12571:12800" placeholder="SELECT CASE ..." />
+          </folding>
         </state>
       </provider>
     </entry>
